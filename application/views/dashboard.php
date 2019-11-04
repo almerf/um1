@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Oneder &mdash; Website Template by Colorlib</title>
+    <title>UM1</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/images/um1_logo.png" rel="icon">
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/jquery-ui.css">
