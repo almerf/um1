@@ -2061,3 +2061,13 @@ figure figcaption {
   padding-top:3px;
   display: inline-block;
 }
+
+@media (max-width: 991.98px) {
+  .order_1{
+    order: 1;
+  }
+
+  .order_2{
+    order: 2;
+  }
+}
