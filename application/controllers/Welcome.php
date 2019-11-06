@@ -22,4 +22,14 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('dashboard.php');
 	}
+
+	public function t_about()
+	{
+		$this->load->view('about.php');
+	}
+
+	public function t_pelatihan()
+	{
+		$this->load->view('pelatihan.php');
+	}
 }

@@ -50,7 +50,7 @@
       <div class="container">
         <div class="row align-items-center">
           
-          <div class="col-6 col-xl-2">
+          <div class="col-6 col-xl-2" style="cursor: pointer;" onclick="window.location='<?php echo site_url(); ?>'">
             <span>
               <h1 class="mb-0 site-logo">
                 <div class="row">
@@ -127,7 +127,7 @@
               
             </div>
  
-            <p><a href="#contact-section" class="smoothscroll btn btn-primary orange">Selengkapnya</a></p>
+            <p><a href="<?php echo site_url('welcome/t_about'); ?>" class="smoothscroll btn btn-primary orange">Selengkapnya</a></p>
 
             
             
@@ -153,7 +153,7 @@
               
             </div>
  
-            <p><a href="#contact-section" class="smoothscroll btn btn-primary orange">Selengkapnya</a></p>
+            <p><a href="<?php echo site_url('welcome/t_pelatihan'); ?>" class="smoothscroll btn btn-primary orange">Selengkapnya</a></p>
 
           </div>
           <div class="col-lg-6 mb-5 order_1  ml-auto " data-aos="fade-up" data-aos-delay="">
@@ -171,13 +171,13 @@
     <section class="site-section" id="">
       
 
-      <div class="container">
+      <div class="container gambar-pelatihan">
 
-        <div class="row mb-3">
+        <!-- <div class="row mb-3">
           <div class="col-12 text-center" data-aos="fade">
             <h2 class="section-title mb-3">Pelatihan Entrepreneurship</h2>
           </div>
-        </div>
+        </div> -->
 
         <!-- <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div id="filters" class="filters text-center button-group col-md-7">
@@ -189,27 +189,27 @@
         </div>   -->
         
         <div id="posts" class="row no-gutter">
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade-up">
             <a href="<?php echo base_url(); ?>assets/images/Profile001.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/Profile001.jpg">
             </a>
           </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade-up">
             <a href="<?php echo base_url(); ?>assets/images/Profile002.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/Profile002.jpg">
             </a>
           </div>
 
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade">
+          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade-up">
             <a href="<?php echo base_url(); ?>assets/images/Profile003.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/Profile003.jpg">
             </a>
           </div>
 
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade">
+          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade-up">
 
             <a href="<?php echo base_url(); ?>assets/images/Profile004.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
@@ -218,14 +218,14 @@
 
           </div>
 
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade-up">
             <a href="<?php echo base_url(); ?>assets/images/Profile005.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/Profile005.jpg">
             </a>
           </div>
 
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade">
+          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4" data-aos="fade-up">
             <a href="<?php echo base_url(); ?>assets/images/Profile006.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/Profile006.jpg">
@@ -310,7 +310,9 @@
   
   <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 
-  
+  <script type="text/javascript">
+    $(".x").hide();
+  </script>
     
   </body>
 </html>
